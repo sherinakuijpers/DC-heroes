@@ -1,0 +1,81 @@
+body {
+    background-color: rgb(164, 164, 185);
+    margin: 0px;
+    overflow-y: hidden;
+    font-family: arial;
+}
+
+#header {
+    background-color: blue;
+    position: relative;
+    height: 80px;
+    padding: 20px 20px 20px;
+}
+
+.logo {
+    position: relative;
+}
+
+.heroes {
+    position: absolute;
+    margin-left: 100px;
+    font-size: 30px;
+    color: white;
+    margin-top: -50px;
+    font-weight: bold;
+    font-family: ;
+}
+
+#main-container {
+    height: calc (100vh - 162px);
+}
+
+#main-left {
+    width: 280px;
+    height: 550px;
+    float: left;
+    overflow: auto;
+    border: 1px solid red;
+}
+
+#main-center {
+    width: 445px;
+    height: 550px;
+    float: left;
+    overflow: auto;
+    border: 1px solid purple;
+}
+
+#main-right {
+    width: 630px;
+    height: 550px;
+    float: left;
+    overflow: auto;
+    border: 1px solid green;
+}
+
+#navigation {
+    list-style: none;
+}
+
+.teamname li:hover {
+    color: chartreuse;
+}
+
+.charactername {
+    color: chartreuse;
+}
+
+.characterimage {
+    
+}
+
+.characterdescription {
+   
+}
+
+#footer {
+    background-color: blue;
+    height: 30px;
+    margin-top: 520px;
+}
