@@ -35,7 +35,7 @@ body {
     height: 550px;
     float: left;
     overflow: auto;
-    border: 1px solid red;
+    border-radius: 1px solid black;
 }
 
 #main-center {
@@ -43,7 +43,7 @@ body {
     height: 550px;
     float: left;
     overflow: auto;
-    border: 1px solid purple;
+
 }
 
 #main-right {
@@ -51,27 +51,70 @@ body {
     height: 550px;
     float: left;
     overflow: auto;
-    border: 1px solid green;
 }
 
 #navigation {
     list-style: none;
+    margin-left: -25px;
+}
+
+.navblocks {
+    height: 100px;
+    width: 200px;
+}
+
+.characterbox {
+    width: 425px;
+    margin: 0 auto;
+    margin-left: 0px;
+}
+
+.characters {
+    width: 400px;
+    height: 280px;
+    border: 1px solid black;
+    margin-top: 10px;
+    margin-left: 12px;
+}
+
+h3 {
+    margin-left: 15px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.teamname {
+    list-style: none;
+    margin-left: 100px;
+    margin-top: -65px;
+    text-decoration: none;
 }
 
 .teamname li:hover {
     color: chartreuse;
+    text-decoration: none;
 }
 
 .charactername {
     color: chartreuse;
+    float: right;
+    margin-right: 0px;
+    margin-top: 40px;
+    font-size: 20px;
 }
 
 .characterimage {
-    
+   float: left;
 }
 
 .characterdescription {
-   
+   float: right;
+   margin-left: 160px;
+   margin-top: -200px;
+}
+
+.charactermoreinfo {
+    margin-top: 260px;
+    margin-left: 30px;
 }
 
 #footer {
