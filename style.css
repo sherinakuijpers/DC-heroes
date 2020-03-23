@@ -1,15 +1,16 @@
 body {
-    background-color: rgb(164, 164, 185);
     margin: 0px;
-    overflow-y: hidden;
     font-family: arial;
+    overflow-y: hidden;
 }
 
 #header {
-    background-color: blue;
+    background-color: rgb(4, 4, 173);
     position: relative;
-    height: 80px;
+    height: 70px;
     padding: 20px 20px 20px;
+    border-top: 10px solid rgb(30, 30, 224);
+    border-bottom: 10px solid rgb(30, 30, 224);
 }
 
 .logo {
@@ -23,102 +24,150 @@ body {
     color: white;
     margin-top: -50px;
     font-weight: bold;
-    font-family: ;
 }
 
 #main-container {
     height: calc (100vh - 162px);
 }
 
-#main-left {
-    width: 280px;
+#main-left{
+    width: 305px;
     height: 550px;
     float: left;
     overflow: auto;
-    border-radius: 1px solid black;
+    border-right: 1px solid grey;
 }
 
-#main-center {
-    width: 445px;
-    height: 550px;
-    float: left;
-    overflow: auto;
-
+.Teams {
+    margin-left: 20px;
+    color: rgb(4, 4, 173);
+    margin-top: -10px;
 }
 
-#main-right {
-    width: 630px;
-    height: 550px;
-    float: left;
-    overflow: auto;
-}
-
-#navigation {
-    list-style: none;
-    margin-left: -25px;
-}
-
-.navblocks {
+#teams {
     height: 100px;
-    width: 200px;
+    width: 275px;
+    margin-left: -20px;
+    margin-top: -5px;
 }
 
-.characterbox {
-    width: 425px;
-    margin: 0 auto;
-    margin-left: 0px;
+.teamimage {
+    float: left;
 }
 
-.characters {
-    width: 400px;
-    height: 280px;
-    border: 1px solid black;
-    margin-top: 10px;
-    margin-left: 12px;
-}
-
-h3 {
-    margin-left: 15px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-}
-
-.teamname {
+.teamnames {
     list-style: none;
-    margin-left: 100px;
-    margin-top: -65px;
-    text-decoration: none;
+    color: white;
+    float: left;
+    margin-left: 5px;
+    margin-top: 30px;
 }
 
-.teamname li:hover {
-    color: chartreuse;
+.teamnames li a {
     text-decoration: none;
+    color: black;
 }
 
-.charactername {
-    color: chartreuse;
-    float: right;
-    margin-right: 0px;
-    margin-top: 40px;
-    font-size: 20px;
+.teamnames li a:hover {
+    color: rgb(4, 4, 173);
+    font-size: 105%;
+}
+
+#main-center{
+    width: 460px;
+    height: 550px;
+    float: left;
+    overflow: auto;
+}
+
+#teammember {
+    height: 200px;
+    width: 390px;
+    border: 2px solid grey;
+    margin: auto;
+    margin-top: 15px;
+    background-color: rgb(245, 239, 239);
+}
+
+.picture {
+    float: left;
+}
+
+.text {
+    margin-left: 110px;
+}
+
+.name {
+    margin-top: 20px;
+    margin-left: -40px;
+}
+
+.name li {
+    list-style: none;
+}
+
+.name li a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+.name li a:hover {
+    color: rgb(4, 4, 173);
+}
+
+.description {
+    margin-top: 0px;
+}
+
+#main-right{
+    width: 590px;
+    height: 550px;
+    float: left;
+    overflow: auto;
+}
+
+#characterright {
+    height: 500px;
+    width: 540px;
+    margin-left: 15px;
+    margin-top: 15px;
+}
+
+.character {
+    height: 470px;
+    width: 330px;
+    margin-left: 220px;
+    border: 2px solid white;
 }
 
 .characterimage {
-   float: left;
+    float: left;
+    opacity: 0.6;
 }
 
-.characterdescription {
+.img-circle {
+    border-radius: 50%;
+} 
+
+.characterimageround {
    float: right;
-   margin-left: 160px;
-   margin-top: -200px;
+   margin-top: 10px;
+   margin-right: 10px;
 }
 
-.charactermoreinfo {
-    margin-top: 260px;
-    margin-left: 30px;
+.nameright {
+    font-weight: bold;
+    margin-top: 70px;
+    margin-left: 10px;
 }
 
-#footer {
-    background-color: blue;
-    height: 30px;
-    margin-top: 520px;
+.descriptionright {
+    margin-top: 90px;
+    margin-left: 10px;
+}
+
+.propertiesright {
+    margin-top: 30px;
+    margin-left: 10px;
 }
